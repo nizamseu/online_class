@@ -1,13 +1,13 @@
-import React, { useEffect, useState } from 'react';
+import React, {useState } from 'react';
 import CourseCart from '../courseCart/CourseCart';
 import SingleCourse from './singleCourse/SingleCourse';
 import './singleCourse/singleCourse.css';
 import fakeData from "../../fakeData.json"
 const Course = () => {
 
-    const [articles,setArticles]=useState(fakeData)
+    const [articles,]=useState(fakeData)
     const [cart,setCart]=useState([])
-   console.log("fake",fakeData);
+
     // useEffect(()=>{
     //     const url='https://newsapi.org/v2/top-headlines?country=us&apiKey=1e28de0db0324a0890b8afb6af784e50'
     //     fetch(url)

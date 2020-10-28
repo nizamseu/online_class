@@ -2,8 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import Course from './componant/course/Course';
 import Details from './componant/detail/Details';

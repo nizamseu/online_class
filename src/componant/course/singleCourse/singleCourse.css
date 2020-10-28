@@ -25,13 +25,13 @@
 }
 .cartSecondSection{
     position: fixed;
-    top:85px;
+    top:100px;
     height: 100%;
     overflow: scroll;
     
 }
 .cartContant{
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .cartPicture img{

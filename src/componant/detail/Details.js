@@ -20,7 +20,7 @@ const Details = () => {
                 <h3>Lecturar :{author}</h3>
                 <h3>E-mail: {email}</h3><br/>
                 <h3>Language :{language}</h3><br/><br/>
-                <h1>Price :{price}</h1>
+                <h1>Price :${price}</h1>
                 
            </div>
         </div>

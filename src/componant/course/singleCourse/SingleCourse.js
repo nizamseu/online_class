@@ -25,7 +25,7 @@ const SingleCourse = (props) => {
                         </Card.Text>
                         <Card.Text>
                             <br/>
-                            <h3>{price}</h3>
+                            <h3>${price}</h3>
                         </Card.Text>
                        
                     </Card.Body>
